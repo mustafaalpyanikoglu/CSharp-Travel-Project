@@ -26,14 +26,14 @@ namespace Travel_Project
             string identityNumber = TxtIdentityNumber.Text.Trim(); 
             string phoneNumber = TxtPhoneNumber.Text.Trim(); 
             string email = TxtEmail.Text.Trim(); 
-            string address = richTxtAddress.Text.Trim();
+            string address = richTxtAddress.Text.Trim(); 
             bool isValid = name != "" && surname != "" && age != "" && identityNumber != "" && phoneNumber != "" && email != "" && address != "";
 
 
             if (isValid)
             {
-                Person person = new Person(name,surname,age, identityNumber, phoneNumber,email,address); ;
-                FrmHome form2 = new FrmHome(person);
+                Person person = new(name,surname,age, identityNumber, phoneNumber,email,address); ;
+                FrmHome form2 = new(person);
                 form2.Show();
                 this.Hide();
             }

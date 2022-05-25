@@ -6,7 +6,6 @@ C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\bin\Debug\n
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\bin\Debug\net5.0-windows\ref\Travel Project.dll
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\bin\Debug\net5.0-windows\Travel Project.pdb
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel Project.csproj.AssemblyReference.cache
-C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel_Project.Form1.resources
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel Project.csproj.GenerateResource.cache
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel Project.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel Project.AssemblyInfoInputs.cache
@@ -17,5 +16,6 @@ C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\n
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel Project.pdb
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel Project.genruntimeconfig.cache
 C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel_Project.Properties.Resources.resources
-C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel_Project.Form2.resources
-C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel_Project.Form3.resources
+C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel_Project.FrmHome.resources
+C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel_Project.FrmLogin.resources
+C:\Users\Alp\Desktop\C--Travel-Project\Travel Project\Travel Project\obj\Debug\net5.0-windows\Travel_Project.FrmReport.resources

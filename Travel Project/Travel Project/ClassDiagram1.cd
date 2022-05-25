@@ -1,85 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Access">
   <Class Name="Travel_Project.Program">
-    <Position X="17.25" Y="0.5" Width="1.5" />
+    <Position X="16" Y="1" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Travel_Project.Travel">
-    <Position X="15" Y="0.5" Width="1.5" />
-    <AssociationLine Name="accomodation" Type="Travel_Project.IAccomodation" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
-      <Path>
-        <Point X="16.017" Y="1.603" />
-        <Point X="16.017" Y="5.875" />
-        <Point X="15.25" Y="5.875" />
-      </Path>
-    </AssociationLine>
-    <AssociationLine Name="transportation" Type="Travel_Project.ITransportation" ManuallyRouted="true">
-      <Path>
-        <Point X="15.471" Y="1.603" />
-        <Point X="15.471" Y="3.522" />
-        <Point X="15.25" Y="3.522" />
-      </Path>
-    </AssociationLine>
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABACAAAA=</HashCode>
-      <FileName>Travel\Travel.cs</FileName>
-    </TypeIdentifier>
-    <ShowAsAssociation>
-      <Field Name="accomodation" />
-      <Field Name="transportation" />
-      <Field Name="person" />
-    </ShowAsAssociation>
-  </Class>
-  <Class Name="Travel_Project.IAccomodation">
-    <Position X="13.75" Y="5" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAA=</HashCode>
-      <FileName>Accomodation\Abstracts\IAccomodation.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Travel_Project.Person" Collapsed="true">
-    <Position X="11.75" Y="1" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAACAAAAAAAEAAQAQABAAAAAACEAAAAAAAAAA=</HashCode>
-      <FileName>Travel\Person.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Travel_Project.ITransportation">
-    <Position X="13.75" Y="2.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAgAAAAAAQBAAAAAAAAAAAAAACAAAAABAAAAAAAAAAA=</HashCode>
-      <FileName>Transportation\Abstracts\ITransportation.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Travel_Project.Airplane">
-    <Position X="11.5" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Transportation\Concretes\Airplane.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Travel_Project.Bus">
-    <Position X="11.75" Y="2" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Transportation\Concretes\Bus.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Travel_Project.Hotel">
-    <Position X="11.75" Y="6.25" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAIAAAAAAAAAAQAAAAAAAACAAAAAAAAQAA=</HashCode>
-      <FileName>Accomodation\Concretes\Hotel.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="Travel_Project.Tent">
-    <Position X="13.75" Y="7.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
-      <FileName>Accomodation\Concretes\Tent.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Travel_Project.AirplaneHotelFactory" BaseTypeListCollapsed="true">
@@ -90,7 +15,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Travel_Project.AirplaneTentFactory" BaseTypeListCollapsed="true">
-    <Position X="5" Y="3" Width="1.75" />
+    <Position X="4.75" Y="3" Width="2" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAAAAAgAAA=</HashCode>
       <FileName>Factory\Concretes\AirplaneTentFactory.cs</FileName>
@@ -154,6 +79,74 @@
     <ShowAsAssociation>
       <Field Name="reportBuilder" />
     </ShowAsAssociation>
+  </Class>
+  <Class Name="Travel_Project.Travel">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <AssociationLine Name="transportation" Type="Travel_Project.ITransportation" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="13.75" Y="1.259" />
+        <Point X="12.625" Y="1.259" />
+        <Point X="12.625" Y="3.5" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAABACAAAA=</HashCode>
+      <FileName>Travel\Travel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="accomodation" />
+      <Field Name="person" />
+      <Field Name="transportation" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Travel_Project.IAccomodation">
+    <Position X="14.5" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAACAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Accomodation\Abstracts\IAccomodation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Travel_Project.Person">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAACAAAAAAAEAAQAQABAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Travel\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Travel_Project.ITransportation">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAQBAAAAAAAAAAAAAACAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Transportation\Abstracts\ITransportation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Travel_Project.Airplane">
+    <Position X="13.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transportation\Concretes\Airplane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Travel_Project.Bus">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Transportation\Concretes\Bus.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Travel_Project.Hotel">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAQAAAAAAAACAAAAAAAAQAA=</HashCode>
+      <FileName>Accomodation\Concretes\Hotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Travel_Project.Tent">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Accomodation\Concretes\Tent.cs</FileName>
+    </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>
